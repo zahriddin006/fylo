@@ -6,6 +6,9 @@
 .main-inner{
   display: flex;
 }
+.main__img{
+  padding-right: 40px;
+}
 .main-inner__title{
   font-family: 'Raleway';
   font-style: normal;
@@ -62,6 +65,7 @@
     width: 300px;
     height: 230px;
     margin: 0 auto;
+    padding-right: 0;
   }
   .main-inner__title{
     text-align: center;
