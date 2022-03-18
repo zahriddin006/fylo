@@ -43,3 +43,28 @@
   line-height: 14px;
   margin-bottom: 6px;
 }
+@include breakpoint-up (770px){
+  .trio__trio-inner{
+    display: flex;
+    flex-direction: column;
+  }
+  .trio__trio-content ~ .trio__trio-content{
+    margin-left: 0;
+  }
+  .trio__trio-content{
+    margin-bottom: 24px;
+  }
+  .trio__text{
+    font-size: 10px;
+    line-height: 18px;
+    margin-bottom: 24px;
+  }
+  .trio__human-name {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .trio__human-work{
+    font-size: 8px;
+    line-height: 10px;
+  }
+}

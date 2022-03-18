@@ -589,6 +589,9 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
+  .header-nav__list {
+    margin-bottom: 14px;
+  }
   .header-nav__link {
     font-family: 'Raleway';
     font-style: normal;
@@ -824,6 +827,37 @@ a {
   font-size: 10px;
   line-height: 14px;
   margin-bottom: 6px;
+}
+
+@media only screen and (max-width: 770px) {
+  .trio__trio-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .trio__trio-content ~ .trio__trio-content {
+    margin-left: 0;
+  }
+  .trio__trio-content {
+    margin-bottom: 24px;
+  }
+  .trio__text {
+    font-size: 10px;
+    line-height: 18px;
+    margin-bottom: 24px;
+  }
+  .trio__human-name {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .trio__human-work {
+    font-size: 8px;
+    line-height: 10px;
+  }
 }
 
 .hero {

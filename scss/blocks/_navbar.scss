@@ -7,6 +7,9 @@
 }
 
 @include breakpoint-up(600px){
+  .header-nav__list{
+    margin-bottom: 14px;
+  }
   .header-nav__link{
     font-family: 'Raleway';
     font-style: normal;
