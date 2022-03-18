@@ -43,6 +43,15 @@
   margin-left: 5px;
 }
 
+@include breakpoint-up (986px){
+  .main__img{
+    width: 400px;
+    height: 330px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+}
+
 @include breakpoint-up (858px){
   .main-inner{
     display: flex;
