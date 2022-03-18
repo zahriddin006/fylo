@@ -1,0 +1,64 @@
+.header-nav__list{
+  display: flex;
+}
+
+.header-nav__item ~ .header-nav__item{
+  margin-left: 58px;
+}
+
+.navbar__list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar__item{
+  width: 350px;
+  height: 215px;
+  text-align: center;
+}
+.navbar__item:nth-child(2){
+  margin-left: 154px;
+}
+
+.navbar__item:nth-child(4){
+  margin-left: 154px;
+}
+
+.navbar__title{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.navbar__text{
+  font-family: 'OpenSans';
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+
+// footer
+
+.nav__list{
+  display: flex;
+  flex-direction: column;
+}
+
+.nav__link{
+  font-family: 'OpenSans';
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.nav-contact__list{
+  display: flex;
+  flex-direction: column;
+}
+.nav-contact__link{
+  font-family: 'OpenSans';
+  font-size: 16px;
+  line-height: 19px;
+}

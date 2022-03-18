@@ -1,0 +1,31 @@
+.allow{
+  background-image: linear-gradient(to top , #181F2B 50%, #1B2330 50%);
+  padding-bottom: 85px;
+  .container{
+    width: 860px;
+    margin: 0 auto;
+  }
+}
+.allow-inner{
+  text-align: center;
+  color: #fff;
+  background: rgb(27, 35, 48);
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.254);
+  border-radius: 9px;
+}
+.allow__title{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  margin: 0;
+  margin-bottom: 16px;
+}
+.allow__text{
+  font-family: 'OpenSans';
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 38px;
+  padding: 0 95px;
+}

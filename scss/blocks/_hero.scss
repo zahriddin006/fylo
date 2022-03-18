@@ -1,0 +1,28 @@
+.hero{
+  background-color: #1B2330;
+  padding-bottom: 170px;
+  .container{
+    width: 720px;
+    margin: 0 auto;
+  }
+}
+.hero__hero-inner{
+  color: #fff;
+  text-align: center;
+}
+.hero__img{
+  padding-bottom: 32px;
+}
+.hero__hero-title{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+.hero__hero-paragaph{
+  font-family: 'OpenSans';
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 32px;
+}

@@ -1,0 +1,48 @@
+.footer{
+  background-color: #181F2B;
+}
+.footer-inner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+  padding-top: 32px;
+  padding-bottom: 96px;
+}
+.footer__text{
+  font-family: 'OpenSans';
+  font-size: 16px;
+  line-height: 24px;
+  width: 340px;
+  margin-left: 28px;
+  margin-top: 10px;
+  position: relative;
+}
+.footer__text::before{
+  content: "";
+  position: absolute;
+  display: inline-block;
+  margin-left: -28px;
+  margin-top: 10px;
+  width: 12px;
+  height: 18px;
+  background-image: url(../../img/svg/place.svg);
+}
+
+.footer__adress{
+  margin-top: 10px;
+}
+
+.footer__phone-number{
+  display: block;
+  font-family: 'OpenSans';
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+.footer__mail{
+  font-family: 'OpenSans';
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
