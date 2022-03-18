@@ -528,7 +528,9 @@ a {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -536,6 +538,13 @@ a {
 .site-logo {
   width: 176px;
   height: 52px;
+}
+
+@media only screen and (max-width: 600px) {
+  .site-logo {
+    width: 80px;
+    height: 24px;
+  }
 }
 
 .header-nav__list {
@@ -546,6 +555,24 @@ a {
 
 .header-nav__item ~ .header-nav__item {
   margin-left: 58px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-nav__link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .header-nav__item ~ .header-nav__item {
+    margin-left: 28px;
+  }
 }
 
 .navbar__list {
