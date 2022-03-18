@@ -25,13 +25,18 @@
 
 // Service
 
+.navbar{
+  display: flex;
+  flex-direction: column;
+}
+
 .navbar__list{
   display: flex;
   flex-wrap: wrap;
 }
 
 .navbar__item{
-  width: 350px;
+  width: 340px;
   height: 215px;
   text-align: center;
 }
@@ -57,6 +62,49 @@
   font-size: 14px;
   line-height: 21px;
   text-align: center;
+}
+
+@include breakpoint-up(880px){
+  .navbar__list{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .navbar__item{
+    width: 300px;
+    height: 215px;
+    text-align: center;
+    padding-right: 40px;
+  }
+  .navbar__item:nth-child(2){
+    margin-left: 0;
+  }
+  
+  .navbar__item:nth-child(4){
+    margin-left: 0;
+  }
+  .navbar__img{
+    width: 58px;
+    height: 64px;
+  }
+  .navbar__img-file{
+    width: 64px;
+    height: 54px;
+  }
+
+  .navbar__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .navbar__text{
+    font-family: 'OpenSans';
+    font-size: 14px;
+    line-height: 21px;
+    padding: 0 20px;
+  }
 }
 
 // footer

@@ -575,6 +575,16 @@ a {
   }
 }
 
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .navbar__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -584,7 +594,7 @@ a {
 }
 
 .navbar__item {
-  width: 350px;
+  width: 340px;
   height: 215px;
   text-align: center;
 }
@@ -611,6 +621,53 @@ a {
   font-size: 14px;
   line-height: 21px;
   text-align: center;
+}
+
+@media only screen and (max-width: 880px) {
+  .navbar__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .navbar__item {
+    width: 300px;
+    height: 215px;
+    text-align: center;
+    padding-right: 40px;
+  }
+  .navbar__item:nth-child(2) {
+    margin-left: 0;
+  }
+  .navbar__item:nth-child(4) {
+    margin-left: 0;
+  }
+  .navbar__img {
+    width: 58px;
+    height: 64px;
+  }
+  .navbar__img-file {
+    width: 64px;
+    height: 54px;
+  }
+  .navbar__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .navbar__text {
+    font-family: 'OpenSans';
+    font-size: 14px;
+    line-height: 21px;
+    padding: 0 20px;
+  }
 }
 
 .nav__list {
@@ -772,6 +829,34 @@ a {
   margin-bottom: 32px;
 }
 
+@media only screen and (max-width: 770px) {
+  .hero {
+    background-color: #1B2330;
+    padding-bottom: 170px;
+  }
+  .hero .container {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .hero__hero-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .hero__hero-paragaph {
+    font-family: 'OpenSans';
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .hero__img {
+    width: 300px;
+    height: 225px;
+  }
+}
+
 .service {
   background-color: #1B2330;
   padding-bottom: 136px;
@@ -782,12 +867,15 @@ a {
   margin: 0 auto;
 }
 
-.service-inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+@media only screen and (max-width: 880px) {
+  .service {
+    background-color: #1B2330;
+    padding-bottom: 136px;
+  }
+  .service .container {
+    width: 320px;
+    margin: 0 auto;
+  }
 }
 
 .allow {

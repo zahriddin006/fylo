@@ -26,3 +26,31 @@
   line-height: 30px;
   margin-bottom: 32px;
 }
+
+@include breakpoint-up(770px){
+  .hero{
+    background-color: #1B2330;
+    padding-bottom: 170px;
+    .container{
+      width: 320px;
+      margin: 0 auto;
+    }
+  }
+  .hero__hero-title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .hero__hero-paragaph{
+    font-family: 'OpenSans';
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .hero__img{
+    width: 300px;
+    height: 225px;
+  }
+}
