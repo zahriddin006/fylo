@@ -758,6 +758,7 @@ a {
   padding: 19px 95px;
   border: none;
   outline: none;
+  color: #fff;
 }
 
 .form-btn {
@@ -779,6 +780,31 @@ a {
   outline: none;
   margin-right: 30px;
   margin-bottom: 40px;
+}
+
+.form-btn {
+  margin-bottom: 37px;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width: 600px) {
+  .form__input {
+    padding: 16px 100px 17px 29px;
+    margin-bottom: 24px;
+    margin-right: 0px;
+  }
+  .form-btn {
+    margin-bottom: 37px;
+    color: #FFFFFF;
+  }
+}
+
+@media only screen and (max-width: 402px) {
+  .form__input {
+    padding: 16px 60px 17px 29px;
+    margin-bottom: 24px;
+    margin-right: 0px;
+  }
 }
 
 .trio {
@@ -988,4 +1014,38 @@ a {
   line-height: 21px;
   margin-bottom: 38px;
   padding: 0 95px;
+}
+
+@media only screen and (max-width: 864px) {
+  .allow .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .allow .container {
+    width: 400px;
+    margin: 0 auto;
+  }
+  .allow__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+  .allow__text {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 38px;
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 402px) {
+  .allow .container {
+    width: 282px;
+    margin: 0 auto;
+  }
 }

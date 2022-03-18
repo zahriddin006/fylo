@@ -29,3 +29,43 @@
   margin-bottom: 38px;
   padding: 0 95px;
 }
+
+@include breakpoint-up (864px){
+  .allow{
+    .container{
+      width: 600px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@include breakpoint-up (600px){
+  .allow{
+    .container{
+      width: 400px;
+      margin: 0 auto;
+    }
+  }
+  .allow__title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+  .allow__text{
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 38px;
+    padding: 0 20px;
+  }
+}
+
+@include breakpoint-up (402px){
+  .allow{
+    .container{
+      width: 282px;
+      margin: 0 auto;
+    }
+  }
+}

@@ -12,3 +12,28 @@
   margin-right: 30px;
   margin-bottom: 40px;
 }
+
+.form-btn{
+  margin-bottom: 37px;
+  color: #FFFFFF;
+}
+
+@include breakpoint-up(600px){
+  .form__input{
+    padding: 16px 100px 17px 29px;
+    margin-bottom: 24px;
+    margin-right: 0px;
+  }
+  .form-btn{
+    margin-bottom: 37px;
+    color: #FFFFFF;
+  }
+}
+
+@include breakpoint-up (402px){
+  .form__input{
+    padding: 16px 60px 17px 29px;
+    margin-bottom: 24px;
+    margin-right: 0px;
+  }
+}
