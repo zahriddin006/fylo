@@ -31,6 +31,7 @@
 
 .footer__adress{
   margin-top: 10px;
+  text-align: left;
 }
 
 .footer__phone-number{
@@ -38,11 +39,33 @@
   font-family: 'OpenSans';
   font-size: 14px;
   line-height: 21px;
-  text-align: center;
+  text-align: left;
 }
 .footer__mail{
   font-family: 'OpenSans';
   font-size: 14px;
   line-height: 21px;
-  text-align: center;
+}
+
+@include breakpoint-up (830px){
+  .footer-inner{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer__text{
+    margin-left: 28px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+  }
+  .footer__adress{
+    margin-bottom: 72px;
+  }
+  .img-container{
+    text-align: center;
+  }
+}
+@include breakpoint-up (390px){
+  .footer__text{
+    width: 260px;
+  }
 }

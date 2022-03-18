@@ -459,6 +459,7 @@ a {
 
 .footer__adress {
   margin-top: 10px;
+  text-align: left;
 }
 
 .footer__phone-number {
@@ -466,14 +467,42 @@ a {
   font-family: 'OpenSans';
   font-size: 14px;
   line-height: 21px;
-  text-align: center;
+  text-align: left;
 }
 
 .footer__mail {
   font-family: 'OpenSans';
   font-size: 14px;
   line-height: 21px;
-  text-align: center;
+}
+
+@media only screen and (max-width: 830px) {
+  .footer-inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer__text {
+    margin-left: 28px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+  }
+  .footer__adress {
+    margin-bottom: 72px;
+  }
+  .img-container {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .footer__text {
+    width: 260px;
+  }
 }
 
 .main-net {
@@ -661,6 +690,15 @@ a {
   line-height: 19px;
 }
 
+@media only screen and (max-width: 830px) {
+  .nav {
+    margin-bottom: 50px;
+  }
+  .nav-contact {
+    margin-bottom: 80px;
+  }
+}
+
 .btn {
   font-family: 'Raleway';
   font-style: normal;
@@ -726,7 +764,6 @@ a {
 }
 
 .main {
-  background-color: #181F2B;
   color: #fff;
   padding-bottom: 180px;
 }
@@ -772,12 +809,12 @@ a {
   position: absolute;
   content: "";
   display: inline-block;
-  width: 12px;
-  height: 12px;
+  width: 18px;
+  height: 18px;
   background-image: url("../../img/svg/right-navi.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  top: 4px;
+  top: 2px;
   margin-left: 5px;
 }
 
@@ -981,7 +1018,6 @@ a {
 
 @media only screen and (max-width: 880px) {
   .service {
-    background-color: #1B2330;
     padding-bottom: 136px;
   }
   .service .container {
@@ -991,8 +1027,8 @@ a {
 }
 
 .allow {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #0B1524), color-stop(50%, #181F2B));
-  background-image: linear-gradient(to top, #0B1524 50%, #181F2B 50%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(60%, #0B1524), color-stop(40%, #181F2B));
+  background-image: linear-gradient(to top, #0B1524 60%, #181F2B 40%);
   padding-bottom: 85px;
 }
 
@@ -1008,6 +1044,7 @@ a {
   -webkit-box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.254);
           box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.254);
   border-radius: 9px;
+  padding-top: 20px;
 }
 
 .allow__title {

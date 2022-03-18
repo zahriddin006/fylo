@@ -132,3 +132,12 @@
   font-size: 16px;
   line-height: 19px;
 }
+
+@include breakpoint-up(830px){
+  .nav{
+    margin-bottom: 50px;
+  }
+  .nav-contact{
+    margin-bottom: 80px;
+  }
+}

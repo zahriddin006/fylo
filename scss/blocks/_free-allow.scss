@@ -1,5 +1,5 @@
 .allow{
-  background-image: linear-gradient(to top , #0B1524 50%, #181F2B 50%);
+  background-image: linear-gradient(to top , #0B1524 60%, #181F2B 40%);
   padding-bottom: 85px;
   .container{
     width: 860px;
@@ -12,6 +12,7 @@
   background-color: #1b2330;
   box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.254);
   border-radius: 9px;
+  padding-top: 20px;
 }
 .allow__title{
   font-family: 'Raleway';
