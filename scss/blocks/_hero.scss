@@ -1,5 +1,4 @@
 .hero{
-  background-color: #1B2330;
   padding-bottom: 170px;
   .container{
     width: 720px;
@@ -29,7 +28,6 @@
 
 @include breakpoint-up(770px){
   .hero{
-    background-color: #1B2330;
     padding-bottom: 170px;
     .container{
       width: 320px;
