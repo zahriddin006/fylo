@@ -397,9 +397,6 @@ a {
 .header {
   background-color: #1B2330;
   margin-bottom: 72px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
 }
 
 .header-inner {
