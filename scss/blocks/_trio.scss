@@ -78,4 +78,7 @@
     font-size: 8px;
     line-height: 10px;
   }
+  .trio__trio-content:nth-child(1)::before{
+    display: none;
+  }
 }

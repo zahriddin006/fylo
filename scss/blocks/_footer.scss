@@ -35,16 +35,38 @@
 }
 
 .footer__phone-number{
+  position: relative;
   display: block;
   font-family: 'OpenSans';
   font-size: 14px;
   line-height: 21px;
   text-align: left;
 }
+.footer__phone-number::before{
+  position: absolute;
+  left: -30px;
+  background-image: url("../../img/svg/call-phone.svg");
+  background-size: contain;
+  width: 18px;
+  height: 18px;
+  content: "";
+}
 .footer__mail{
+  position: relative;
   font-family: 'OpenSans';
   font-size: 14px;
   line-height: 21px;
+}
+.footer__mail::before{
+  position: absolute;
+  top: 0;
+  left: -30px;
+  background-image: url("../../img/svg/mail.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  content: "";
 }
 
 @include breakpoint-up (830px){
@@ -53,12 +75,13 @@
     justify-content: center;
   }
   .footer__text{
-    margin-left: 28px;
+    margin-left: 30px;
     margin-top: 10px;
     margin-bottom: 16px;
   }
   .footer__adress{
     margin-bottom: 72px;
+    margin-left: 30px;
   }
   .img-container{
     text-align: center;
