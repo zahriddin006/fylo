@@ -885,6 +885,19 @@ a {
   -webkit-box-shadow: 5px 5px 8px rgba(56, 56, 56, 0.0991282);
           box-shadow: 5px 5px 8px rgba(56, 56, 56, 0.0991282);
   border-radius: 3.93258px;
+  position: relative;
+}
+
+.trio__trio-content:nth-child(1)::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: -36px;
+  left: -10px;
+  background-repeat: no-repeat;
+  background-image: url("../../img/svg/top-corner.svg");
 }
 
 .trio__trio-content ~ .trio__trio-content {
